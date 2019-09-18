@@ -90,7 +90,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-libllvm8-green.svg)](https://anaconda.org/conda-forge/libllvm8) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libllvm8.svg)](https://anaconda.org/conda-forge/libllvm8) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libllvm8.svg)](https://anaconda.org/conda-forge/libllvm8) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libllvm8.svg)](https://anaconda.org/conda-forge/libllvm8) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libllvm7-green.svg)](https://anaconda.org/conda-forge/libllvm7) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libllvm7.svg)](https://anaconda.org/conda-forge/libllvm7) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libllvm7.svg)](https://anaconda.org/conda-forge/libllvm7) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libllvm7.svg)](https://anaconda.org/conda-forge/libllvm7) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-lit-green.svg)](https://anaconda.org/conda-forge/lit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/lit.svg)](https://anaconda.org/conda-forge/lit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/lit.svg)](https://anaconda.org/conda-forge/lit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/lit.svg)](https://anaconda.org/conda-forge/lit) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-llvm-green.svg)](https://anaconda.org/conda-forge/llvm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/llvm.svg)](https://anaconda.org/conda-forge/llvm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/llvm.svg)](https://anaconda.org/conda-forge/llvm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/llvm.svg)](https://anaconda.org/conda-forge/llvm) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-llvm--tools-green.svg)](https://anaconda.org/conda-forge/llvm-tools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/llvm-tools.svg)](https://anaconda.org/conda-forge/llvm-tools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/llvm-tools.svg)](https://anaconda.org/conda-forge/llvm-tools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/llvm-tools.svg)](https://anaconda.org/conda-forge/llvm-tools) |
@@ -106,16 +106,16 @@ Installing `llvm-package` from the `conda-forge` channel can be achieved by addi
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `libllvm8, lit, llvm, llvm-tools, llvm-utils, llvmdev` can be installed with:
+Once the `conda-forge` channel has been enabled, `libllvm7, lit, llvm, llvm-tools, llvm-utils, llvmdev` can be installed with:
 
 ```
-conda install libllvm8 lit llvm llvm-tools llvm-utils llvmdev
+conda install libllvm7 lit llvm llvm-tools llvm-utils llvmdev
 ```
 
-It is possible to list all of the versions of `libllvm8` available on your platform with:
+It is possible to list all of the versions of `libllvm7` available on your platform with:
 
 ```
-conda search libllvm8 --channel conda-forge
+conda search libllvm7 --channel conda-forge
 ```
 
 
